@@ -1,0 +1,45 @@
+.purchase{
+    background-image: url("../images/purchase.jpg");
+    background-size: cover;
+    height: 753px;
+    padding: 60px;
+}
+.purchase .purchaseform{
+   
+    background-color:#fff;
+    text-align: center;
+    border-radius: 100px 0px 100px 0px;
+    height: 550px;
+    justify-content: center;
+    padding-top: 70px;
+    margin-top: 30px;
+}
+.purchase .textform{
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(128, 128, 128, 0.712);
+}
+
+.purchase .purbtn{
+    border-radius: 30px;
+    width: 144px;
+    padding: 8px;
+    margin-top: 10px;
+    transition: .5s;
+    margin-bottom: 30px;
+ 
+}
+.purbtn:hover{
+    background: #563434 !important;
+}
+.purinput{
+    display: block;
+    border: none;
+    width: 300px;
+    margin: 30px auto;
+    height: 40px;
+    background: none;
+    border-bottom: 2px solid #ff523b;
+    color: black;
+    outline: none;
+}

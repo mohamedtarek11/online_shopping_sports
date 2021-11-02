@@ -1,0 +1,219 @@
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ .firstsection{
+     height: 650px;
+     background: radial-gradient(#fff,#ffd6d6) !important;
+ }
+ @media only screen and (max-width:991px){
+     .firstsection{
+         height: auto;
+     }
+ }
+ @media only screen and (min-width:991px){
+    .yourwork{
+        margin-top: 100px;
+    
+    }
+ }
+ @media only screen and (min-width:768px) and (max-width:991px){
+    .yourwork{
+        margin-top: 100px;
+    
+    } 
+ }
+ .navbar-nav img{
+    width: 30px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 3px;
+ }
+ .navbar-brand img{
+    width: 110px;
+}
+ul li a{
+    color: #555 !important;
+}
+@media only screen and (min-width:991px){
+    .workone{
+  
+        padding-top: 120px;
+     }
+}
+@media only screen and (max-width:991px){
+    .workone{
+  
+        padding-top: 90px;
+     }
+}
+.workone button{
+    border-radius: 30px;
+    width: 144px;
+    padding: 8px;
+    margin-top: 10px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.workone button:hover{
+background: #563434;
+}
+
+.workone h1{
+    font-weight: 700 !important;
+}
+/* ///////////////other feature/////////////// */
+.otherfeatute{
+    height: 520px;
+    margin-top: 40px;
+}
+@media only screen and (max-width:576px){
+    .otherfeatute{
+        height: auto;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    .otherfeatute{
+        height: 920px;
+        
+    }
+}
+@media only screen and (min-width:769px) and (max-width:991px){
+    .otherfeatute{
+        height: 420px;
+        
+    }
+
+}
+.otherfeatute .featuretext{
+    text-align: center;
+    margin-bottom: 33px;
+    position: relative;
+}
+.otherfeatute .featuretext h3{
+    color: #555;
+}
+  
+.featurediv{
+    width: 93px;
+    height: 5px;
+    margin: 0px auto;
+    background-color: #ff523b;
+    border-radius: 7px;
+}
+.otherfeatute .fas, .far{
+    color: #ff523b;
+}
+.product{
+    transition: all 1s;
+}
+.product:hover{
+    transform: translateY(-15px);
+}
+/* ///////////////////latest product///////////////// */
+.latestproduct{
+    height: 300px;
+}
+.latesttext{
+    text-align: center;
+    margin-bottom: 33px;
+    margin-top: 30px;
+    position: relative;
+}
+.latesttext h3{
+    color: #555;
+}
+/* //////////////selectfeature////////////// */
+.selectfeature{
+    
+    margin-top: 30px ;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+@media only screen and (max-width:576px){
+    .selectfeature{
+        text-align: center;
+    }
+}
+/* ///////////////////latest product///////////////// */
+.latestproduct{
+    height: 300px;
+}
+.latesttext{
+    text-align: center;
+    margin-bottom: 33px;
+    margin-top: 30px;
+    position: relative;
+}
+.latesttext h3{
+    color: #555;
+}
+/* ///////////////padginate///////////////// */
+.padginate{
+    margin: 0 auto 80px;
+}
+.padginate span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.padginate span:hover{
+    background:#ff523b ;
+    color: #fff;
+}
+/* //////////////////footer////////////////////// */
+.footer{
+    height: 364px;
+    background-color: #000;
+    padding-top: 55px;
+}
+.footer .footerh3{
+    color: #fff;
+}
+@media only screen and (max-width:576px){
+    .footer{   
+        height: auto;
+        text-align: center;
+        background-color: #000 !important;
+    }
+    .secundfooter{
+        margin-top: 25px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    .footer{   
+        height: auto;
+        text-align: center;
+        background-color: #000 !important;
+    }
+    .secundfooter{
+        margin-top: 20px;
+    }
+}
+.footerimage{
+    max-width: 48%;
+    
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footercontact{
+    text-align: center;
+}
+.footer hr{
+    color:#8a8a8a ;
+    background-color: #8a8a8a;
+}
+.footer .copy{
+    text-align: center;
+    
+}

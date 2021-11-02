@@ -1,0 +1,190 @@
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ .firstsection{
+     height: 650px;
+     background: radial-gradient(#fff,#ffd6d6) !important;
+ }
+ @media only screen and (max-width:991px){
+     .firstsection{
+         height: auto;
+     }
+ }
+ @media only screen and (min-width:991px){
+    .yourwork{
+        margin-top: 100px;
+    
+    }
+ }
+ @media only screen and (min-width:768px) and (max-width:991px){
+    .yourwork{
+        margin-top: 100px;
+    
+    } 
+ }
+ .navbar-nav img{
+    width: 30px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 3px;
+ }
+ .navbar-brand img{
+    width: 110px;
+}
+ul li a{
+    color: #555 !important;
+}
+@media only screen and (min-width:991px){
+    .workone{
+  
+        padding-top: 120px;
+     }
+}
+@media only screen and (max-width:991px){
+    .workone{
+  
+        padding-top: 90px;
+     }
+}
+.workone button{
+    border-radius: 30px;
+    width: 144px;
+    padding: 8px;
+    margin-top: 10px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.workone button:hover{
+background: #563434;
+}
+
+.workone h1{
+    font-weight: 700 !important;
+}
+/* ///////////////////login//////////////// */
+.login{
+  
+    background: radial-gradient(#fff,#ffd6d6) !important;
+padding-top: 20px;
+margin-bottom: 35px;
+margin-top: 30px;
+}
+.loginform{
+    text-align: center;
+    background-color: #fff;
+    height: 435px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.loginform p{
+    color: #8a8a8a;
+    font-weight: bold;
+    font-size: 20px;
+}
+.loginform a{
+    text-decoration: none;
+    color: #ff523b;
+    margin-left: 20px;
+}
+
+.forminput{
+    background-color: #fff;
+    display: block;
+    width: 60%;
+    margin: 15px auto !important;
+    height: 40px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ff523b;
+    outline: none;
+}
+.loginbtn{
+    width: 100px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.loginbtn:hover{
+    background-color: #563434;
+}
+/*///////////////////////aboutus////////////// */
+.aboutus{
+    background: radial-gradient(#fff,#ffd6d6) !important;
+    padding-top: 13px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.aboutus img{
+    width: 550px;
+    height: 550px;
+    margin-bottom: 15px;
+}
+.aboutus h2{
+    text-align: center;
+    color: #555;
+}
+.aboutus hr{
+    width: 93px;
+    height: 5px;
+    margin: 0px auto;
+    background-color: #ff523b;
+    border-radius: 7px;
+    margin-bottom: 35px;
+}
+.aboutus .abouttext{
+    color: #8a8a8a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+/* //////////////////footer////////////////////// */
+.footer{
+    height: 364px;
+    background-color: #000;
+    padding-top: 55px;
+}
+.footer .footerh3{
+    color: #fff;
+}
+@media only screen and (max-width:576px){
+    .footer{   
+        height: auto;
+        text-align: center;
+        background-color: #000 !important;
+    }
+    .secundfooter{
+        margin-top: 25px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    .footer{   
+        height: auto;
+        text-align: center;
+        background-color: #000 !important;
+    }
+    .secundfooter{
+        margin-top
+        : 20px;
+    }
+}
+.footerimage{
+    max-width: 48%;
+    
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footercontact{
+    text-align: center;
+}
+.footer hr{
+    color:#8a8a8a ;
+    background-color: #8a8a8a;
+}
+.footer .copy{
+    text-align: center;
+    
+}

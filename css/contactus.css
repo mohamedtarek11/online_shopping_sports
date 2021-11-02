@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ .firstsection{
+     height: 650px;
+     background: radial-gradient(#fff,#ffd6d6) !important;
+ }
+ @media only screen and (max-width:991px){
+     .firstsection{
+         height: auto;
+     }
+ }
+ @media only screen and (min-width:991px){
+    .yourwork{
+        margin-top: 100px;
+    
+    }
+ }
+ @media only screen and (min-width:768px) and (max-width:991px){
+    .yourwork{
+        margin-top: 100px;
+    
+    } 
+ }
+ .navbar-nav img{
+    width: 30px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 3px;
+ }
+ .navbar-brand img{
+    width: 110px;
+}
+ul li a{
+    color: #555 !important;
+}
+@media only screen and (min-width:991px){
+    .workone{
+  
+        padding-top: 120px;
+     }
+}
+@media only screen and (max-width:991px){
+    .workone{
+  
+        padding-top: 90px;
+     }
+}
+.workone button{
+    border-radius: 30px;
+    width: 144px;
+    padding: 8px;
+    margin-top: 10px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.workone button:hover{
+background: #563434;
+}
+
+.workone h1{
+    font-weight: 700 !important;
+}
+/*///////////////////////contact us////////////// */
+.contact{
+    /* background: radial-gradient(#fff,#ffd6d6) !important; */
+    background-color: #ff523b;
+    height: 500px;
+    padding-top: 50px;
+    margin-top: 50px;
+
+}
+.contact form{
+    text-align: center;
+}
+.contact button{
+    width: 120px;
+    margin: 0px auto;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.contact h2{
+    text-align: center;
+    color: #fff;
+}
+.contact .contactinput{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    color: #555;
+    padding-left: 20px;
+    font-size: 20px;
+    height: 45px;
+   
+    
+    
+
+}
+.contact .areatext{
+    height: 150px;
+    padding-top: 50px;
+}
+/* //////////////////footer////////////////////// */
+.footer{
+    height: 364px;
+    background-color: #000;
+    padding-top: 55px;
+}
+.footer .footerh3{
+    color: #fff;
+}
+@media only screen and (max-width:576px){
+    .footer{   
+        height: auto;
+        text-align: center;
+        background-color: #000 !important;
+    }
+    .secundfooter{
+        margin-top: 25px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    .footer{   
+        height: auto;
+        text-align: center;
+        background-color: #000 !important;
+    }
+    .secundfooter{
+        margin-top
+        : 20px;
+    }
+}
+.footerimage{
+    max-width: 48%;
+    
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footercontact{
+    text-align: center;
+}
+.footer hr{
+    color:#8a8a8a ;
+    background-color: #8a8a8a;
+}
+.footer .copy{
+    text-align: center;
+    
+}
